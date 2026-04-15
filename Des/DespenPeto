@@ -1,0 +1,120 @@
+Actúa como un Desarrollador Senior Full-Stack experto en Python, Streamlit, SQLite y sistemas administrativos.
+
+Quiero que desarrolles una aplicación web profesional llamada "PetoPro", lista para subir a GitHub y desplegar en Streamlit Cloud.
+
+## 🎯 OBJETIVO
+Crear una app completa para:
+- Control de inventario
+- Control financiero
+- Gestión de productos reales
+- Integración con botón de pedidos por WhatsApp
+
+---
+
+## ⚙️ TECNOLOGÍAS
+- Python 3
+- Streamlit
+- SQLite (persistencia local)
+- Pandas
+
+---
+
+## 📦 PRODUCTOS (INCLUIR EXACTAMENTE)
+- Vaso 107
+- Vaso 127
+- Peto Tradicional
+- Peto con cereal
+- Cereal
+- Leche condensada
+- Bolsas plásticas
+- Cucharita plástica
+- Galletas Arte
+- Envase galletas
+
+---
+
+## 🧠 LÓGICA CLAVE (MUY IMPORTANTE)
+
+### ✔️ INVENTARIO
+- Registrar ENTRADAS (compras o producción)
+- Registrar SALIDAS (ventas o consumo)
+- Calcular stock automáticamente
+
+### ✔️ COSTO PROMEDIO PONDERADO (CPP REAL)
+El CPP debe calcularse correctamente así:
+
+CPP = (Total acumulado de costo) / (Total unidades disponibles)
+
+- Cada entrada recalcula el CPP
+- Las salidas NO cambian el CPP
+- Las salidas usan el CPP actual para calcular valor
+
+### ✔️ VALIDACIONES
+- No permitir salidas si no hay stock suficiente
+- Evitar valores negativos
+
+---
+
+## 💰 FINANZAS
+- Flujo de caja simple:
+  - Ingresos
+  - Egresos
+  - Balance
+
+---
+
+## 📊 DASHBOARD
+Mostrar:
+- Stock por producto
+- Costo promedio
+- Valor total del inventario
+- Gráfico de barras
+- Tabla resumen profesional
+
+---
+
+## 📲 BOTÓN WHATSAPP (OBLIGATORIO)
+
+Integrar botón que abra WhatsApp con este número:
+
++58 414 9309101
+
+Link:
+https://wa.me/584149309101?text=Hola quiero pedir DR PETO
+
+Debe estar visible siempre (tipo botón principal).
+
+---
+
+## 🎨 INTERFAZ
+- Moderna
+- Minimalista
+- Profesional
+- Modo claro/oscuro automático
+
+---
+
+## 📁 ARCHIVOS A GENERAR
+
+1. app.py (COMPLETO, funcional, bien comentado en español)
+2. requirements.txt con:
+   - streamlit
+   - pandas
+
+---
+
+## 💬 COMENTARIOS EN CÓDIGO
+Explicar claramente:
+- Cómo se calcula el CPP
+- Cómo se actualiza el stock
+- Cómo funciona la base de datos
+
+---
+
+## 🚀 RESULTADO FINAL
+El código debe estar listo para:
+- Ejecutar con: streamlit run app.py
+- Subir directamente a GitHub
+- Desplegar en Streamlit Cloud sin errores
+
+NO OMITIR NINGUNA PARTE.
